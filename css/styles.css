@@ -72,13 +72,14 @@ p {
 .header {
   width: auto;
   height: 65rem;
-  background-image: url("/Users/shannonbrown/Documents/web-development/personal-projects/HBL-2/images/collage-1.jpg");
+  display: inline-block;
+  /* background-image: url("/Users/shannonbrown/Documents/web-development/personal-projects/HBL-2/images/collage-1.jpg"); */
   background-size: cover;
 }
 
 @media (max-width:600px) {
   .header {
-    background-image: url("/Users/shannonbrown/Documents/web-development/personal-projects/HBL-2/images/mobile-background-1.svg");
+    background-image: url("../images/desktop-background.svg");
   }
 }
 
